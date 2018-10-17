@@ -9,7 +9,7 @@ body{
     color: #969fa4;
 }
 .form-control:focus{
-    border-color: #5cb85c;
+    border-color: #000000;
 }
 .form-control, .btn{        
     border-radius: 3px;
@@ -79,7 +79,7 @@ body{
     text-decoration: none;
 }
 .signup-form form a{
-    color: #5cb85c;
+    color: #000000;
     text-decoration: none;
 }	
 .signup-form form a:hover{
