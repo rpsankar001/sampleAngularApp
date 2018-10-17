@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
+import { HelpComponent } from '../help/help.component';
+import { AboutComponent } from '../about/about.component';
 
 const appRoutes: Routes = [
   {
@@ -17,9 +19,17 @@ const appRoutes: Routes = [
     data: { preload: true }
   },
   {
+    path: 'help',
+    component: HelpComponent
+  },
+  {
+    path: 'aboutus',
+    component: AboutComponent
+  },
+  {
     path: '',
     loadChildren: '../home/home.module#HomeModule'
-  },
+  }
   // { path: '**', component: PageNotFoundComponent }
 ];
 
